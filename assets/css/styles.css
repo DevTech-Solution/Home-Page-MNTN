@@ -1,0 +1,508 @@
+/** RESET VALEUR PAR DEFAUT **/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/** ---------------------------------------------- **/
+/**  FONTS **/
+/**  Chronicle-display Bold **/
+@font-face {
+    font-family:"Chronicle display Bold";
+    src: url("../fonts/chronicle-display/Chronicle\ Display\ Bold.otf");
+}
+/**  Chronicle-display Semi-Bold **/
+@font-face {
+    font-family:"Chronicle display Semi-Bold";
+    src: url("../fonts/chronicle-display/Chronicle\ Display\ Semibold.otf");
+}
+/** -------------------------- **/
+/**  gilroy - Medium **/
+@font-face {
+    font-family:"Gilfroy Medium";
+    src: url("../fonts/gilroy-bold/Gilroy-Medium.ttf");
+}
+/**  gilroy - Bold **/
+@font-face {
+    font-family:"Gilfroy Bold";
+    src: url("../fonts/gilroy-bold/Gilroy-Bold.ttf");
+}
+/**  gilroy - Extra-Bold **/
+@font-face {
+    font-family:"Gilfroy Extra Bold";
+    src: url("../fonts/gilroy-bold/FontsFree-Net-Gilroy-ExtraBold.ttf");
+}
+/** ------------------------------------------------
+                    HEADER
+--------------------------------------------------**/
+/**  COLOR BACKGROUND **/
+body {
+    background-image: url(../images/wallpaper-background.png);
+    background-size: 80% 34%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #0b1d26;
+}
+/**  ----------------------------------------- **/
+/**  MOVE HEADER **/
+header {
+    height: 2.4rem;
+    width: 122rem;
+    margin-top: -13rem;
+    margin-left: 18rem;
+    position: fixed;
+}
+/**  ----------------------------------------- **/
+/**  CONTAINER **/
+.container {
+    width: 125rem;
+}
+/**  LOGO**/
+.logo a p {
+    font-size: 33px;
+    font-family: "Chronicle display Semi-Bold";
+}
+/**  NAV **/
+/**  A LA LIGNE **/
+.container nav .logo {
+    display: inline-block;
+}
+/**  A LA LIGNE 2 **/
+.container nav li ,.login{
+    display: inline-block;
+}
+/**  ----------------------------------------- **/
+/**  EQUIPEMENT **/
+.equipement {
+    margin-left: 45rem;
+}
+/**  ABOUT US**/
+.aboutus {
+    margin-left: 2rem;
+}
+/**  BLOG **/
+.blog {
+    margin-left: 3rem;
+}
+/**  LOGIN **/
+.login {
+    margin-left: 44rem;
+}
+/**  CONNEXION **/
+.login a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.login-resize {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.account {
+    font-family:"Gilfroy Bold";
+    font-size: 17px;
+    margin-left: 0.625rem;
+}
+/**  ----------------------------------------- **/
+/**  CONTENEUR GUIDE **/
+.container-main {
+    width: 59.375rem;
+    height: 19.375rem;
+    margin-left: 31.25rem;
+    margin-top: -20rem;
+}
+/**  LINE GUIDE **/
+.ligne-guide {
+    border: solid 0.125rem #FBD784;
+    width: 4.5rem;
+}
+/**  COLOR FONT SIZE MARGIN **/
+.guide {
+    color: #FBD784;
+    font-size: 18px;
+    font-family: "Gilfroy Extra Bold";
+    margin-left: 2rem;
+}
+/**  A LA LIGNE A HIKING GUIDE **/
+.container-main .guide .ligne-guide, p {
+    display: inline-block;
+    
+}
+/**  ESPACEMENT LIGNE + TXT **/
+.guide p{
+    margin-left: 1.5rem;
+}
+/**  GUIDE CENTRE **/
+.row-titre {
+    margin-top: 3.375rem;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: "Chronicle display Semi-Bold";
+    line-height: 6.25rem;
+}
+h1 {
+    width: 65rem;
+}
+/**  GUIDE BAS **/
+.scroll-guide a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Gilfroy Bold";
+    margin-top: 0.5rem;
+}
+.scroll-guide a img {
+    width: 1rem;
+    height: 1.5rem;
+    margin-left: 1rem;
+}
+/**  ----------------------------------------- **/
+/**  ASIDE GAUCHE **/
+.row-social {
+    margin-left: 19rem;
+    width: 4.5rem;
+    height: 7rem;
+}
+/**  ASIDE FOLLOW **/
+.follow {
+    width: 50rem;
+    margin-top: 15rem;
+}
+.row-social {
+    width: 1.875rem;
+    height: 11.25rem;
+    /**  VERTICAL **/
+    writing-mode: vertical-lr;
+}
+.followus {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Gilfroy Bold";
+    text-decoration: none;
+}
+.instalogo{
+    width: 1.5rem;
+    height: 1.5rem;  
+    margin-top: 0.938rem;
+}
+.twitterlogo{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.938rem;
+}
+/**  --------- **/
+.row-social li {
+    display: inline-block;
+}
+/**  ----------------------------------------- **/
+/**  ASIDE DROIT **/
+/**  CONTENEUR LEVEL **/
+.niveau {
+    width: 2.625rem;
+    height: 11.875rem;
+    margin-left: 135rem;
+    margin-top: -10rem;
+}
+/**  ASIDE LEVEL **/
+.niveau .start li ,a{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Gilfroy Bold";
+    line-height: 32px;
+    text-decoration: none;
+}
+/**  ASIDE BORDER **/
+.niveau-border {
+    border-left: solid 0.188rem #ffffff;
+    width: 3.125rem;
+    margin-top: -13.75rem;
+    margin-left: 4.375rem;
+    height: 15rem;   
+}
+/**  ----------------------------------------- **/
+/**  ARTICLE HIKER **/
+/**  CONTENEUR HIKER **/
+.hiker {
+    width: 91.375rem;
+    height: 45rem;
+    margin-left: 32.5rem;
+    margin-top: 48.438rem;
+    background-color:#0b1d26;
+}
+/**  CHIFFRE HIKER **/
+.number-one {
+    font-size: 240px;
+    font-family: "Gilfroy Bold";
+    color: #ffffff31;
+}
+/**  MOVE HIKER **/
+.started {
+    width: 16.75rem;
+    height: 4.375rem;
+    color:#FBD784;
+    margin-left: 12.188rem;
+    margin-top: -11.25rem;
+    font-family: "Gilfroy Extra Bold";
+    font-size: 18px;
+    line-height: 6px;
+}
+/**  LIGNE HIKER **/
+.ligne-started {
+    border: solid 2px #FBD784;
+    width: 4.5rem;
+}
+/**  TXT HIKER GET STARTED **/
+.startedmove {
+    margin-left: 9.688rem;
+}
+.hiker .started .ligne-started, .startedmove {
+    display: inline-block;
+}
+/**  TITRE HIKER **/
+.titre-hiker h2 {
+    color: #ffffff;
+    font-family: "Chronicle display Semi-Bold";
+    font-size: 56px;
+    width: 34.688rem;
+    height: 9.625rem;
+    margin-left: 9.375rem;
+}
+/**  TXT HIKER **/
+.titre-hiker p {
+    color: #ffffff;
+    height: 10rem;
+    width: 39.5rem;
+    line-height: 32px;
+    font-family: "Gilfroy Bold";
+    font-size: 18px;
+    margin-left: 9.375rem;
+}
+/**  FLECHE TXT A **/
+.readmore-hiker a{
+    color: #FBD784;
+    margin-left: 9.375rem;
+}
+/**  FLECHE HIKER **/
+.arrow-hiker{
+    height: 1rem;
+    width: 1.5rem;
+}
+/**  IMG HIKER **/
+.img-hiker {
+    height: 45rem;
+    width: 35.375rem;
+    margin-left: 56rem;
+    margin-top: -33.313rem;
+}
+/**  ----------------------------------------- **/
+/**  ARTICLE GEAR **/
+.gear {
+    width: 91.375rem;
+    height: 45rem;
+    margin-left: 32.5rem;
+    background-color: #0b1d26;
+}
+/**  MOVE IMG GEAR  **/
+.img-gear {
+    margin-top: 15rem;
+}
+/**  LIGNE GEAR **/
+.numbertwo {
+    color: #ffffff;
+    font-size: 240px;
+    font-family: "Gilfroy Bold";
+    color: #ffffff31;
+    margin-left: 40.625rem;
+    margin-top: -46.875rem;
+}
+/**  LIGNE GEAR **/
+.ligne-essentials {
+    border: solid 0.125rem #FBD784;
+    width: 4.5rem;
+    margin-left: 49.875rem;
+    margin-top: -9.375rem;
+}
+.hiking-txt {
+    font-family: "Gilfroy Extra Bold";
+    font-size: 18px;
+    line-height: 6px;
+}
+/**  TITRE ESSENTIALS **/
+.essentials p{
+    color: #FBD784;
+    margin-left: 56.25rem;
+}
+/**  TRANSFORM COLOR... ESSENTIALS **/
+.titre-gear ,h3 p{
+    color: #ffffff;
+    height: 10rem;
+    width: 39.5rem;
+    line-height: 32px;
+    font-size: 18px;
+    margin-left: 49.688rem;  
+    margin-top: 0.625rem;  
+}
+/**  TITRE GEAR H3 **/
+.titre-gear h3{
+    font-family: "Chronicle display Semi-Bold";
+    font-size: 56px;
+    width: 28.313rem;
+    height: 8.438rem;
+    line-height: 80px;
+}
+/**  TXT GEAR **/
+.titre-gear p{
+    margin-top: 3.125rem;
+    line-height: 32px;
+    font-family: "Gilfroy Bold";
+    font-size: 18px;
+}
+/**  READMORE GEAR **/
+.gear a {
+    margin-left: 49.688rem; 
+    margin-top: 11.25rem;
+    color: #FBD784;
+}
+/**  ----------------------------------------- **/
+/**  ARTICLE  **/
+/**  CONTENEUR MAP **/
+.map {
+    width: 91.375rem;
+    height: 45rem;
+    margin-left: 32.5rem;
+    margin-top: 15rem;
+}
+/**  CHIFFRE MAP **/
+.number-three {
+    font-size: 240px;
+    font-family: "Gilfroy Bold";
+    color: #ffffff31;
+}
+/**  MOVE MAP **/
+.key {
+    width: 16.75rem;
+    height: 4.375rem;
+    color:#FBD784;
+    margin-left: 12.188rem;
+    margin-top: -11.25rem;
+    font-family: "Gilfroy Extra Bold";
+    font-size: 18px;
+    line-height: 6px;
+}
+/**  LIGNE MAP **/
+.ligne-map {
+    border: solid 0.125rem #FBD784;
+    width: 4.5rem;
+}
+/**  TXT MAP GET STARTED **/
+.map-move {
+    margin-left: 9.688rem;
+    width: 15rem;
+    line-height: 18px;
+}
+.map .key .ligne-map, .map-move{
+    display: inline-block;
+}
+/**  TITRE MAP **/
+.titre-map h4 {
+    color: #ffffff;
+    font-family: "Chronicle display Semi-Bold";
+    font-size: 56px;
+    width: 34.688rem;
+    height: 9.625rem;
+    margin-left: 9.375rem;
+}
+/**  TXT MAP **/
+.titre-map p {
+    color: #ffffff;
+    height: 10rem;
+    width: 39.5rem;
+    line-height: 32px;
+    font-family: "Gilfroy Bold";
+    font-size: 18px;
+    margin-left: 9.375rem;
+}
+/**  FLECHE TXT A **/
+.readmore-map a{
+    color: #FBD784;
+    margin-left: 9.375rem;
+}
+/**  FLECHE MAP **/
+.arrow-map{
+    height: 1rem;
+    width: 1.5rem;
+}
+/**  IMG MAP **/
+.img-map {
+    height: 45rem;
+    width: 35.375rem;
+    margin-left: 56rem;
+    margin-top: -35.063rem;
+}
+/** ------------------------------------------------
+                    FOOTER
+--------------------------------------------------**/
+/**  CONTENEUR FOOTER **/
+.footer {
+    height: 17.5rem;
+    width: 91.375rem;
+    margin-left: 32.5rem;
+    color: #ffffff;
+    margin-top: 7.5rem;
+}
+/**  COLOR YELLOW FOOTER **/
+.blog-color-size {
+    color: #FBD784;
+    font-size: 24px;
+    font-family: "Gilfroy Bold";
+}
+/**  LOGO **/
+.footer-logo {
+    font-size: 35px;
+    font-family: "Chronicle display Semi-Bold";
+    width: 3.125rem;
+}
+/**  DESCRIPTION FOOTER **/
+.footer-description {
+    font-size: 18px;
+    font-family: "Gilfroy Bold";
+    width: 18.938rem;
+    height: 4rem;
+    line-height: 32px;
+    margin-top: 0.938rem;
+}
+.footer-copyright {
+    font-family: "Gilfroy Medium";
+    color: #ffffff4f;
+    margin-top: 4.375rem;
+    width: 21.875rem;
+}
+/**  COLONNE BLOG **/
+.footer-blog{
+    margin-left: 43.75rem;
+    width: 12.063rem;
+    height: 17.5rem;
+    margin-top: -13.5rem;
+    font-size: 18px;
+    font-family: "Gilfroy Medium";
+}
+.footer-blog ul li, a {
+    display: inline-block;
+    line-height: 32px;
+}
+/**  COLONNE MNTN **/
+.footer-mntn{
+    margin-top: 3.125rem;
+    width: 10.063rem;
+    height: 11.5rem;
+    margin-left: 75rem;
+    margin-top: -17.5rem;
+    font-size: 18px;
+    font-family: "Gilfroy Medium";
+}
+.footer-mntn ul li {
+    display: inline-block;
+    width: 11.25rem;
+    line-height: 32px;
+}
+/**  ----------------------------------------- **/

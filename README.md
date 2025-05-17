@@ -15,6 +15,9 @@ L’objectif était de travailler la structure visuelle d’un site avec **HTML 
 The goal was to build a visually structured site using only **HTML and CSS**.
 
 ---
+<p align="center">
+  <img src="./home_page.png" alt="Page Home Page" width="800"/>
+</p>
 
 ## 🚀 Démo en ligne | Live Demo
 

@@ -21,7 +21,7 @@ The goal was to build a visually structured site using only **HTML and CSS**.
 
 ## 🚀 Démo en ligne | Live Demo
 
-🔗 [Voir la démo / View Live Demo](https://schatel-dev.github.io/Home-Page-MNTN/)
+🔗 [Voir la démo / View Live Demo](https://devtech-solution.github.io/Home-Page-MNTN/)
 
 ---
 
@@ -39,7 +39,7 @@ No JavaScript was used in this project.
 
 **Sebastien C.**  
 🎓 Promo 2025  
-🔗 GitHub : [@schatel-dev](https://github.com/schatel-dev)
+🔗 GitHub : [@DevTech-Solution](https://github.com/DevTech-Solution)
 
 ---
 
